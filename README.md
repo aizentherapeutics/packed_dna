@@ -9,10 +9,13 @@ When writing code keep the following in mind:
 - The [API guidelines](https://rust-lang.github.io/api-guidelines/checklist.html) should be followed for library crates
 - Follow best git practices
 
-Please use the rust toolchain for version `1.58.1`.
+You are free to use any stable Rust toolchain you prefer, as long as it's documented.
 
 # Tasks
 1. Address `TODO`s in `dna` crate and `README`
 2. Address `TODO`s in `nuccount` crate and `README`
 
-If you have any questions feel free to reach out to `mguler@andrew.cmu.edu`
+For all tasks the described TODOs are a minimum, any additional utilities or features that you would like to add are happily welcomed.
+Create a private fork of this repository and invite me (`mustafa-guler`) to that fork for evaluation.
+
+If you have any questions feel free to reach out to `mus@aizentx.com`
