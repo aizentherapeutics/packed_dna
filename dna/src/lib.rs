@@ -10,7 +10,7 @@ use std::{convert::TryFrom, fmt::Display, str::FromStr};
 // 1. A representation that is more memory efficient that simply storing a vector of `Nuc`
 // 2. A FromStr implementation (should be case insensitive like the `Nuc` impl)
 // 3. A `FromIterator` implementation to construct it from an iterator over `Nuc`s
-// 4. A `fn get(&self, idx: usize) -> Nuc` getter for a particular nucleotide
+// 4. A `fn get(&self, idx: usize) -> Option<Nuc>` getter for a particular nucleotide
 //
 // Make sure to unit test and document all elements
 // Also, the internal representation of the PackedDna struct should be privately scoped
